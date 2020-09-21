@@ -13,13 +13,13 @@
 }
 
 html {
-    background: black;
+    background: white;
 }
 
 body {
     font-family: sans-serif;
     margin: 0 auto;
-    max-width: 1366px;
+    /* max-width: 1366px;*/
     background: white;
 }
 
@@ -29,6 +29,16 @@ body {
 header img#logoImg {
     display: block;
     width: 25%;
+    padding-right: 500px;
+}
+
+header img#icon {
+    float: right;
+    width: 5%;
+}
+
+header div#welcome_message {
+    float: right;
 }
 
 header {
